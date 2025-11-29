@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "surprise-telegram-bot"
+version = "0.1.0"
+description = "A Telegram bot that transforms selfies into hilarious styles using Google Gemini"
+authors = ["Noam Rosenthal"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+python-telegram-bot = "^22.5"
+pillow = "^12.0.0"
+python-dotenv = "^1.2.1"
+requests = "^2.32.5"
+telegram = "^0.0.1"
+google-genai = "^1.52.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
